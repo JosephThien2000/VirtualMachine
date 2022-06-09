@@ -1,3 +1,4 @@
+<html>
 <style>
     head {text-align: center}
     body {background-color: powerblue;}
@@ -137,3 +138,4 @@ Please make sure to update tests as appropriate</p>
 <a href="https://app.vagrantup.com/boxes/search">https://app.vagrantup.com/boxes/search</a>
 
 </body>
+</html>
