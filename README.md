@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
 <style>
     head {text-align: center}
     body {background-color: powerblue;}
@@ -13,6 +14,7 @@
     h1 {font-weight: bold;
         font-size:30px;}
 </style>
+</head>
 
 <body>
 
@@ -52,15 +54,11 @@
 
 <img src="image/1.png" alt="File Explorer">
 
-<br>
-
 <p>Download Vagrant via this link: <a href="https://www.vagrantup.com/downloads">https://www.vagrantup.com/downloads</a></p>
 
 <p>After that, we choose <q style="font-weight: bold;">Amd64</q> in the picture below:</p>
 
 <img src="image/2.png" alt="Vagrant download picture">
-
-<br>
 
 <p>We need follow the wizard and then we will check whether it exists:</p>
 
@@ -69,8 +67,6 @@ vagrant --version
 ```
 
 <img src="image/3.png" alt="Vagrant check on terminal">
-
-<br>
 
 <h2 id="C3">Usage</h2>
 <hr>
@@ -83,13 +79,9 @@ vagrant init generic/ubuntu2010
 
 <img src="image/4.png" alt="initialize vagrant">
 
-<br>
-
 <p>It will appear in your folder:</p>
 
 <img src="image/5.png" alt="Vagrantfile">
-
-<br>
 
 <p>Then we install <b>VMware</b> as providers:</p>
 
@@ -98,8 +90,6 @@ vagrant plugin install vagrant-vmware-desktop
 ```
 
 <img src="image/6.png" alt="vmware plugin">
-
-<br>
 
 <p>After installing VMware providers, we activate Vagrant by a command below:</p>
 
@@ -110,8 +100,6 @@ vagrant up
 <img src="image/7.png" alt="vagrant up">
 <img src="image/8.png">
 
-<br>
-
 <p>Finally, we open ubuntu kernel with <b>"ssh" keyword</b>.</p>
 
 ```bash
@@ -119,8 +107,6 @@ vagrant ssh
 ```
 
 <img src="image/9.png" alt="ssh">
-
-<br>
 
 <p>From here, we're able to access ubuntu kernel and do your works.</p>
 
