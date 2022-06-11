@@ -9,10 +9,11 @@
         font-weight:"bold";
         font-size: 20px;
     }
-    p {font-size: 15px;}
-    h2 {font-weight: bold;}
-    h1 {font-weight: bold;
+    p {font-size: 20px;}
+    h2 {font-weight: bold;
         font-size:30px;}
+    h1 {font-weight: bold;
+        font-size:50px;}
 </style>
 </head>
 
@@ -83,22 +84,24 @@ vagrant init generic/ubuntu2010
 
 <img src="image/5.png" alt="Vagrantfile">
 
-<p>Then we install <b>VMware</b> as providers:</p>
+<p>Then we install <b>VirtualBox</b> as providers:</p>
+
+<p>Link: <a href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a></p>
+
+<p>Then we choose "Windows hosts"</p>
+
+<img src="image/virtualbox.png" alt="virtualbox">
+
+
+<p>After installing virtualbox providers, we activate Vagrant by a command below:</p>
 
 ```bash
-vagrant plugin install vagrant-vmware-desktop
+vagrant up --provider=virtualbox
 ```
 
-<img src="image/6.png" alt="vmware plugin">
+<p>In this case, I have already downloaded it before. So it can be seen as a successful work.</p>
 
-<p>After installing VMware providers, we activate Vagrant by a command below:</p>
-
-```bash
-vagrant up
-```
-
-<img src="image/7.png" alt="vagrant up">
-<img src="image/8.png">
+<img src="image/run.png" alt="vagrant up">
 
 <p>Finally, we open ubuntu kernel with <b>"ssh" keyword</b>.</p>
 
@@ -106,7 +109,7 @@ vagrant up
 vagrant ssh
 ```
 
-<img src="image/9.png" alt="ssh">
+<img src="image/ssh.png" alt="ssh">
 
 <p>From here, we're able to access ubuntu kernel and do your works.</p>
 
