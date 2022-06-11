@@ -43,7 +43,7 @@
 <h2 id="C1" style="font-weight: bold;">Introduction</h2>
 <hr>
 
-<p>Vagrant is an open-source software product for building and maintaining portable virtual software development environments; e.g., for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS. It tries to simplify the software configuration management of virtualization in order to increase development productivity. Vagrant is written in the Ruby language, but its ecosystem supports development in a few other languages. (<a href="https://en.wikipedia.org/wiki/Vagrant_(software))">Wikipeadia</a>
+<p>Vagrant is an open-source software product for building and maintaining portable virtual software development environments; e.g., for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS. It tries to simplify the software configuration management of virtualization in order to increase development productivity. Vagrant is written in the Ruby language, but its ecosystem supports development in a few other languages. (<a href="https://en.wikipedia.org/wiki/Vagrant_(software))" target="_blank">Wikipeadia</a>
 )</p>
 
 <h2 id="C2" style="font-weight: bold;">Installation</h2>
@@ -53,7 +53,7 @@
 
 <img src="image/1.png" alt="File Explorer">
 
-<p>Download Vagrant via this link: <a href="https://www.vagrantup.com/downloads">https://www.vagrantup.com/downloads</a></p>
+<p>Download Vagrant via this link: <a href="https://www.vagrantup.com/downloads" target="_blank">https://www.vagrantup.com/downloads</a></p>
 
 <p>After that, we choose <q style="font-weight: bold;">Amd64</q> in the picture below:</p>
 
@@ -84,7 +84,7 @@ vagrant init generic/ubuntu2010
 
 <p>Then we install <b>VirtualBox</b> as providers:</p>
 
-<p>Link: <a href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a></p>
+<p>Link: <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">https://www.virtualbox.org/wiki/Downloads</a></p>
 
 <p>Then we choose "Windows hosts"</p>
 
@@ -121,9 +121,9 @@ Please make sure to update tests as appropriate</p>
 <h2 id="C5" style="font-weight: bold;">References</h2>
 <hr>
 
-<a href="https://www.vagrantup.com/">https://www.vagrantup.com/</a>
+<a href="https://www.vagrantup.com/" target="_blank">https://www.vagrantup.com/</a>
 
-<a href="https://app.vagrantup.com/boxes/search">https://app.vagrantup.com/boxes/search</a>
+<a href="https://app.vagrantup.com/boxes/search" target="_blank">https://app.vagrantup.com/boxes/search</a>
 
 </body>
 </html>
